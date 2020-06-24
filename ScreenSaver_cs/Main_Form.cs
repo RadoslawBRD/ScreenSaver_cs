@@ -17,7 +17,7 @@ using System.Drawing.Imaging;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Main_Form : Form
     {
 
         [DllImport("user32.dll")]
@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
         string curDate;
         Boolean errors = false;
 
-        public Form1()
+        public Main_Form()
         {
            InitializeComponent();
 

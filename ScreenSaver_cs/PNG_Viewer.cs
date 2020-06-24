@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
         DateTime newDate;
         public Size img_size = new Size(50,50);
         public Size loaded_size;
-        string png_folder = Form1.png_folder;
+        string png_folder = Main_Form.png_folder;
         public string file_name;
         Bitmap ss_holder;
         public PNG_Viewer()
